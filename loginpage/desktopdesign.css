@@ -19,4 +19,7 @@
     margin: .25em;
     margin:auto;
   }
+  p{
+    top: 10vh;
+  }
 }

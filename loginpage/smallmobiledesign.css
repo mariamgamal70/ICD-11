@@ -7,7 +7,7 @@ body {
   background-attachment: fixed;
   text-align: center;
   font-family: "Alliance No.1", "Segoe UI", Helvetica, Arial;
-  color: white
+  color: white;
 }
 
 h1 {
@@ -110,11 +110,13 @@ div i {
 p{
   font-size: x-large;
   font-weight: bold;
-  
+  display: inline-block;
+  position: relative;
   animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom:-43vh;
 }
 @keyframes floating {
   from {
