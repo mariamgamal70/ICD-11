@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/signup/signup.css" />
+    <link rel="stylesheet" href="/signup/signupdesktop.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <a href="/frontpage/frontpage.html" id="back"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
+    <h1>Learn more about ICD-11 by signing up!</h1>
+    
+        <form id="container" action="/intro/intro.html">
+            <div id="left">
+                <label for="firstname" id="firstnamelabel">First Name</label>
+            <br><input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+            <br>
+            <label for="username" id="usernamelabel">Username</label><br>
+            <input type="text" name="username" id="username" placeholder="Username" required>
+            <br>
+            <label for="password" id="passwordlabel">Password (8 characters minimum)</label>
+            <br>
+            <input type="password" name="password" id="password" placeholder="password" required minlength="8" required>
+            <br>
+            </div>
+            <div id="right"> 
+            <label for="lastname" id="lastnamelabel">Last Name</label><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+            <br>
+            <label for="email" id="emaillabel">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Email@email.com" required>
+            <br>
+            <label for="affiliation">Affiliation</label>
+            <br>
+            <select id="affiliation" name="affiliation">
+                    <option value="hospital">Hospital</option>
+                    <option value="company">Company</option>
+                    
+            </select>
+            <br>
+            <input type="submit" value="Sign Up" id="button">
+        </div>
+        </form>
+    <img src="/images/smilingdr-removebg-preview.png" alt="">
+
+</body>
+</html>

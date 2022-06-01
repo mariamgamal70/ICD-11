@@ -1,0 +1,18 @@
+@media screen and (min-width:67.5em) {
+    img {
+        top: -42vh
+    }
+
+    #container {
+        width: 80%
+    }
+
+    h1 {
+        left: 25vw;
+        width: max-content
+    }
+
+    #button {
+        right: 23em
+    }
+}

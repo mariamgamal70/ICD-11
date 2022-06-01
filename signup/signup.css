@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(#012a4a, #013a63, #01497c, #014f86, #2a6f97, #2c7da0, #468faf, #61a5c2, #89c2d9, #a9d6e5);
+    background-attachment: fixed;
+    color: #f0f8ff;
+    overflow: hidden
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    top: 3vh;
+    width: fit-content;
+    right: auto;
+    font-size: 300%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out
+}
+
+input {
+    padding: .5vw;
+    margin-bottom: 4vh;
+    box-sizing: border-box;
+    width: 21.5vw
+}
+
+#back {
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-size: 300%;
+    top: 1%;
+    left: 0;
+    margin: .5em
+}
+
+#container {
+    position: relative;
+    top: 6vh;
+    display: flex;
+    flex-direction: row;
+    background: #01497c;
+    width: 70em;
+    padding-bottom: 5em;
+    padding-top: 2em;
+    margin: auto;
+    box-shadow: 0 0 1em white;
+    border-style: outset;
+    width: auto
+}
+
+#right {
+    position: relative;
+    top: 1.25em;
+    margin: auto
+}
+
+#left {
+    margin: auto
+}
+
+label {
+    font-size: larger
+}
+
+select {
+    position: relative;
+    font-size: larger;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    box-sizing: border-box;
+    width: 21.5vw
+}
+
+#button {
+    position: relative;
+    box-sizing: border-box;
+    top: 4em;
+    right: 25vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5rem;
+    font-weight: bold;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-style: none
+}
+
+#button:hover {
+    box-shadow: 0 0 1em white;
+    background: #012a4a;
+    color: aliceblue
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0)
+    }
+
+    65% {
+        transform: translate(0, 15px)
+    }
+
+    to {
+        transform: translate(0, -0)
+    }
+}
+
+img {
+    position: relative;
+    left: 75vw;
+    top: -22vh
+}

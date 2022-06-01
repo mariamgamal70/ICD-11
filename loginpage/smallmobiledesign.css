@@ -91,3 +91,41 @@ div i {
   left: 0;
   margin: .5em
 }
+#button:hover {
+  box-shadow: 0 0 1em white;
+  background: #012a4a;
+  color: aliceblue
+}
+#button 
+{
+  font-size: larger;
+    background: white;
+    display: inline-block;
+    color: #012a4a;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+p{
+  font-size: x-large;
+  font-weight: bold;
+  
+  animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  from {
+    transform: translate(0, 0)
+  }
+
+  65% {
+    transform: translate(0, 15px)
+  }
+
+  to {
+    transform: translate(0, -0)
+  }
+}
